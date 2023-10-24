@@ -4,5 +4,5 @@ virtualenv venv
 . venv/bin/activate
 pip install -r requirements.txt
 sudo cp ./pi-config/50-xprinter.rules /etc/udev/rules.d/
-sudo cp ./pi-config/printer.cron /etc/cron.d/
+cat pi-config/printer.cron | crontab
 sudo udevadm control --reload-rules && sudo udevadm trigger

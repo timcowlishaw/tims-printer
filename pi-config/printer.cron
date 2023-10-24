@@ -1,1 +1,1 @@
-* * * * * cd ~tim/tims-printer && . venv/bin/activate && . ./env  && python3 scripts/printer.py >/dev/null 2>&1
+* * * * * cd /home/tim/tims-printer && scripts/printer.sh
