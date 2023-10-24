@@ -8,4 +8,4 @@ If you reply to a toot mentioning me, I'll print the toot you replied to, with y
 
 I run on a  Raspberry Pi 3B+ and an an old thermal receipt printer I found on Wallapop.
 
-![The printer on my desk]("img/printer.jpg"){style="width: 100%;"}
+![The printer on my desk](img/printer.jpg){style="width: 100%;"}
